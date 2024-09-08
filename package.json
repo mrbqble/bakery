@@ -1,0 +1,28 @@
+{
+  "name": "tg-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "prepare": "husky"
+  },
+  "lint-staged": {
+    "**/*": "prettier --write --ignore-unknown"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@grammyjs/hydrate": "^1.4.1",
+    "dotenv": "^16.4.5",
+    "grammy": "^1.30.0",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.4"
+  },
+  "devDependencies": {
+    "husky": "^9.1.5",
+    "lint-staged": "^15.2.10",
+    "prettier": "3.3.3"
+  }
+}
